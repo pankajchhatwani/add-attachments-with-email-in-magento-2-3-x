@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Webkul Grid routes xml
+ * @category  Nirav
+ * @package   Nirav_Gstapproval
+ * @author    Nirav
+ * @copyright Copyright (c) 2017-2020 AllDone Technologies (https://alldonetechnology.com)
+ * @license   https://store.webkul.com/license.html
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="emailattachments" frontName="emailattachments">
+            <module name="Globalgarner_EmailAttachments" />
+        </route>
+    </router>
+</config>
